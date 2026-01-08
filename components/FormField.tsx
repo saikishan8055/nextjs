@@ -21,7 +21,7 @@ const FormField = ({control,name,placeholder,label,type="text"}:FormFieldProps<T
           <FormItem>
                 <FormLabel className='label'>{label}</FormLabel>
                 <FormControl>
-                  <Input placeholder={placeholder} {...field} />
+                  <Input placeholder={placeholder} type={type} {...field} />
                 </FormControl>
             
                 <FormMessage />
