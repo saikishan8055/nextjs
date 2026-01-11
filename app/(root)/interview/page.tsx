@@ -1,0 +1,26 @@
+// import Agent from '@/components/Agent'
+// import React from 'react'
+
+// const page = () => {
+//   return (
+// <>
+// <h3>Interview Generation</h3>
+// <Agent userName="You" userId="user1" type="generate"/>
+// </> 
+//  ) 
+// }
+
+// export default page
+import React from 'react';
+import Agent from '@/components/Agent';
+
+const Page: React.FC = () => {
+  return (
+    <>
+      <h3 className="text-xl font-bold mb-4">Interview Generation</h3>
+      <Agent userName="You" userId="user1" type="generate" />
+    </>
+  );
+};
+
+export default Page;
